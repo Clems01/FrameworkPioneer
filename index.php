@@ -70,19 +70,24 @@ if (isset($do))
 		
 	}
 	//Send command to VSX.
-	$telnet = new PHPTelnet();
-	$result = $telnet->Connect($PioneerIP,'','');
-	echo $result;
-
-	if ($result == 0) {
-		$telnet->DoCommand($Command, $result);
+	if ($Command != "empty"){
+		$telnet = new PHPTelnet();
+		$result = $telnet->Connect($PioneerIP,'','');
 		echo $result;
-		$telnet->Disconnect();
+		
+		if ($result == 0) {
+			$telnet->DoCommand($Command, $result);
+			echo $result;
+			$telnet->Disconnect();
+		}
 	}
-}
+	else
+	{
+		echo "Wrong command received";
+	}
 else
 {
-	echo "no command received";
+	echo "No command received";
 }
 
 /********** Receive commands **********/
