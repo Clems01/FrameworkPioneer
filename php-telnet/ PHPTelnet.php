@@ -3,6 +3,7 @@
 PHPTelnet 1.1.1
 by Antone Roundy
 adapted from code found on the PHP website
+modified for FrameworkPionner to work with EEdomus by Clems01
 public domain
 */
 
