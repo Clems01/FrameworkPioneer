@@ -1,14 +1,24 @@
 FrameworkPioneer
 ================
 
+
 Framework PHP Eedomus for Pionneer VSX devices
 
 Un bout de code PHP pour contrôler son HomeCinema Pioneer VSX..
 
+
+==========
+
+
 2013-08-23 - V1.0 - Version initiale
+
+
+==========
 
 Configuration :
 Ajoutez l'IP de votre VSX dans le fichier index.php
+
+==========
 
 
 Quelques exemples d'utilisation :
