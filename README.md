@@ -17,6 +17,7 @@ Un bout de code PHP pour contrôler son HomeCinema Pioneer VSX..
 
 Configuration :
 Ajoutez l'IP de votre VSX dans le fichier index.php
+
 Ajoutez un fichier .htaccess pour securiser l'acces.
 
 ==========
