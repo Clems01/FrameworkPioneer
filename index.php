@@ -74,7 +74,7 @@ if (isset($do))
 		$telnet = new PHPTelnet();
 		$result = $telnet->Connect($PioneerIP,'','');
 		echo $result;
-		
+
 		if ($result == 0) {
 			$telnet->DoCommand($Command, $result);
 			echo $result;
@@ -85,6 +85,7 @@ if (isset($do))
 	{
 		echo "Wrong command received";
 	}
+}
 else
 {
 	echo "No command received";
