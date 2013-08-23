@@ -8,7 +8,7 @@ require_once "./php-telnet/PHPTelnet.php";
 
 // Set here your pioneer IP device
 $PioneerIP = '192.168.0.50';
-$Command = 'test';
+$Command = 'empty';
 
 /********** Send commands **********/
 // We get back the argument
