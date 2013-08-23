@@ -24,13 +24,13 @@ Ajoutez l'IP de votre VSX dans le fichier index.php
 Quelques exemples d'utilisation :
 
 Allumer le VSX:
-http://PHP_Server_IP/Domotique/Pioneer/index.php?do=power_on
+> http://PHP_Server_IP/Domotique/Pioneer/index.php?do=power_on
 
 Eteindre le VSX: 
-http://PHP_Server_IP/Domotique/Pioneer/index.php?do=power_off
+> http://PHP_Server_IP/Domotique/Pioneer/index.php?do=power_off
 
 Augmenter le volume:
-http://PHP_Server_IP/Domotique/Pioneer/index.php?do=volume_up
+> http://PHP_Server_IP/Domotique/Pioneer/index.php?do=volume_up
 
 Baisser le volume:
-http://PHP_Server_IP/Domotique/Pioneer/index.php?do=volume_down
+> http://PHP_Server_IP/Domotique/Pioneer/index.php?do=volume_down
